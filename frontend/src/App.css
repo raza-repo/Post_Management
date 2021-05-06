@@ -1,0 +1,36 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    /* padding-left: 10px;
+    padding-right: 10px; */
+}
+
+.header {
+    background-color: rgb(83, 80, 80);
+    padding: 10px;
+}
+.brand {
+    color: aliceblue;
+}
+a {
+    text-decoration: none;
+    }
+a:hover {
+    text-decoration: underline;
+    color: aliceblue !important;;
+}
+.button  {
+    color: #211f1f !important;
+    background-color: #ffffff !important;
+    border-color: #ffffff !important;
+} 
+
+  .truncate {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  .transparent {
+    background-color: transparent !important;
+    box-shadow: inset 0px 1px 0 rgba(0,0,0,.075);
+ }
